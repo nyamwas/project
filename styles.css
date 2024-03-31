@@ -1,0 +1,23 @@
+body
+{
+    background-color: green;
+}
+
+.card
+{
+    background-color: white;
+    border: solid 2px grey;
+    box-shadow: 10px, 10px, 10px;
+    height: 20vw;
+    left: 5vw;
+    overflow: hidden;
+    position: relative;
+    top: 5vh;
+    width: 20vw;
+    z-index: 2;
+}
+
+.card:hover
+{
+    box-shadow: 30px, 30px;
+}
